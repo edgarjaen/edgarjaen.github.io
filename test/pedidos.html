@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Edgar R. Jaén by edgarjaen</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">  
+  </head>
+  <body>
+  <div>NOMBRE DE LA EMPRESA</div>
+  <form action="demo_form.asp">
+  <label for="male">Fecha:</label>
+    <input type="datetime-local" placeholder="2015/12/01" >
+    <br>
+    <br>
+  <label for="male">Cliente:</label>
+    <input list="cliente">
+      <datalist id="cliente">
+          <option value="Cliente 01"></option>
+          <option value="Cliente 02"></option>
+          <option value="..."></option>        
+          <option value="Cliente N"></option>        
+      </datalist>
+    <a href="clientes.html">[ + ]</a>
+    <br>
+  <label for="male">Nro Telefono:</label>
+    <input type="text" name="cliente" id="telefono" placeholder="0000-000-0000"><br>
+  
+  <div>
+  <div>
+    <span>ITEM</span>
+    <span>Tipo de Baño</span>
+    <span>cantidad</span>
+    <span>precio</span>
+    <span>Total</span>
+  </div>
+
+  <label for="bano">1</label>
+    <input list="tipobano">
+      <datalist id="tipobano">
+          <option value="Dorado"></option>
+          <option value="Plata"></option>
+          <option value="Niquel"></option>        
+      </datalist>
+    <input type="text" placeholder="cantidad" size="4">
+    <input type="text" placeholder="precio unitario" >
+    <input type="text" placeholder="0.000,00" disabled="true">
+  </div>
+  <div>
+  <label for="bano">2</label>
+    <input list="tipobano">
+      <datalist id="tipobano" >
+          <option value="Dorado"></option>
+          <option value="Plata"></option>
+          <option value="Niquel"></option>        
+      </datalist>
+    <input type="text" placeholder="cantidad" size="4">
+    <input type="text" placeholder="precio unitario">
+    <input type="text" placeholder="0.000,00" disabled="true">
+  </div>
+  <div>
+  <label for="bano">TOTALES:</label>
+    <input type="text" disabled="true">
+    <input type="text" disabled="true">
+    <input type="text" placeholder="0.000,00" disabled="true">
+  </div>
+
+    <input type="submit" value="Guardar Pedido">
+  </form>
+
+  </body>
+</html>
