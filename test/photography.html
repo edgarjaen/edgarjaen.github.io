@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fotografías por Edgar R. Jaén</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/github-light.css">
+    <link rel="stylesheet" href="../stylesheets/flexslider.css">
+    <body>
+      <div class="wrapper">
+        <header>
+          <h1>Edgar R. Jaén</h1>
+          <p>System Engineer - Amateur Photographer - Softball Player</p>
+        </header>
+      </div>
+      <section id="slider" class="flexslider">
+        <div id="slider" class="flexslider">
+          <div class="flex-viewport">
+            <ul class="slides">
+              <!--li
+              img(src="../img/001.JPG")
+              p.flex-caption Cap 01
+              -->
+              <!--li
+              img(src="../img/002.JPG")
+              p.flex-caption Cap 02
+              -->
+              <li><img src="../img/003.JPG">
+                <p class="flex-caption">Cap 03</p>
+              </li>
+              <li><img src="../img/004.JPG">
+                <p class="flex-caption">Cap 04</p>
+              </li>
+              <li><img src="../img/005.JPG">
+                <p class="flex-caption">Cap 05</p>
+              </li>
+              <li><img src="../img/006.JPG">
+                <p class="flex-caption">Cap 06</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--#f2.flexslider.carousel(style="direction: rtl;")
+        ul.slides
+          li
+            img(src="../img/001.JPG")
+          li
+            img(src="../img/002.JPG")
+          li
+            img(src="../img/003.JPG")
+          li
+            img(src="../img/004.JPG")
+          li
+            img(src="../img/005.JPG")
+          li
+            img(src="../img/006.JPG")
+        -->
+        <footer></footer>
+      </section>
+    </body>
+  </head>
+</html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="../javascripts/jquery.flexslider.js"></script>
+<script>
+  $(window).load(function(){
+    $('#f1').flexslider({
+      animation: "slide",
+      rtl: true,
+      start: function(slider){
+        $('body').removeClass('loading');
+      }
+    });
+   $('#f2').flexslider({
+      animation: "slide",
+      animationLoop: false,
+      itemWidth: 210,
+      itemMargin: 5,
+      pausePlay: true,
+      mousewheel: true,
+      rtl: true,
+      asNavFor:'.flexslider'
+    });
+    $('#slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel"
+    });
+  });
+</script>

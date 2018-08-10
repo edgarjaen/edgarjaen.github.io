@@ -1,0 +1,81 @@
+//output:../test/photography.html
+doctype html
+html
+  head
+    title Fotografías por Edgar R. Jaén
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="../stylesheets/styles.css")
+    link(rel="stylesheet", href="../stylesheets/github-light.css")
+    link(rel="stylesheet", href="../stylesheets/flexslider.css")
+    body
+      .wrapper
+        header
+          h1 Edgar R. Jaén
+          p System Engineer - Amateur Photographer - Softball Player
+      section.flexslider(id="slider")
+        #slider.flexslider
+          .flex-viewport
+            ul.slides
+              //li
+                img(src="../img/001.JPG")
+                p.flex-caption Cap 01
+              //li
+                img(src="../img/002.JPG")
+                p.flex-caption Cap 02
+              li
+                img(src="../img/003.JPG")
+                p.flex-caption Cap 03
+              li
+                img(src="../img/004.JPG")
+                p.flex-caption Cap 04
+              li
+                img(src="../img/005.JPG")
+                p.flex-caption Cap 05
+              li
+                img(src="../img/006.JPG")
+                p.flex-caption Cap 06
+        //#f2.flexslider.carousel(style="direction: rtl;")
+          ul.slides
+            li
+              img(src="../img/001.JPG")
+            li
+              img(src="../img/002.JPG")
+            li
+              img(src="../img/003.JPG")
+            li
+              img(src="../img/004.JPG")
+            li
+              img(src="../img/005.JPG")
+            li
+              img(src="../img/006.JPG")
+        footer
+script(src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js")
+script(src="../javascripts/jquery.flexslider.js")
+script.
+  $(window).load(function(){
+    $('#f1').flexslider({
+      animation: "slide",
+      rtl: true,
+      start: function(slider){
+        $('body').removeClass('loading');
+      }
+    });
+   $('#f2').flexslider({
+      animation: "slide",
+      animationLoop: false,
+      itemWidth: 210,
+      itemMargin: 5,
+      pausePlay: true,
+      mousewheel: true,
+      rtl: true,
+      asNavFor:'.flexslider'
+    });
+    $('#slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel"
+    });
+  });

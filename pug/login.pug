@@ -1,0 +1,35 @@
+//output:../test/login.html
+doctype html
+html
+  head
+    title Basico de Pug - Motor de Plantillas HTML
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+    script(src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js")
+    body
+      #header
+      .row.align-items-center
+        .col
+        .panel.panel-default.col.align-self-center
+          .panel-body
+            h3#title Login
+          .container.border
+            form(class='formulario')
+              .form-group
+                label Usuario
+                input(type='email' placeholder='correo@dominio.com')
+              .form-group
+                label Contraseña
+                input(type='password')
+              .form-group.form-check
+                input(type='checkbox' class='form-check-input')
+                label(class='for-check-label')
+              .form-group
+                input(type='submit' class='btn btn-primary' value='Enviar')
+        .col
+        #description
+        #content
+      #footer
+script.
+  //alert("Ed");
