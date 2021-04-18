@@ -1,0 +1,27 @@
+{
+  "name": "edgarjaen.github.io",
+  "version": "1.0.0",
+  "description": "Edgar Reyes Jaén's Web Site.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgarjaen/edgarjaen.github.io.git"
+  },
+  "author": "Edgar Reyes Jaén",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edgarjaen/edgarjaen.github.io/issues"
+  },
+  "homepage": "https://github.com/edgarjaen/edgarjaen.github.io#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "materialize": "^1.0.0",
+    "materialize-css": "^1.0.0"
+  }
+}
