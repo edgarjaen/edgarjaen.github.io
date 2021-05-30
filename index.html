@@ -9,16 +9,49 @@
 	<meta name="description" content="" />
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" /> 
 	<link rel="stylesheet" type="text/css" href="stylesheets/resume.css" media="all" />
+	<style>
+		div.social{
+			padding:4px;//.5vw;
+		}
+		.social img {
+			//min-width: 1.5vw;
+			//min-height: 1.5vw;
+			width: 32px; //2vw;
+			height: 32px; //2vw;
+			vertical-align: middle;
+		}
+		#inner-new {
+			padding: 10px 80px;
+			margin: 80px auto;
+			background: #f5f5f5;
+		}
+		
+		.border-gradient {
+			border: solid;
+			border-width: 6px 0 3px 0;
+			border-image-slice: 1;
+		}
+
+		.border-gradient-edjaen {
+			border-image-source: linear-gradient(to right, #e7e078, #3ca3aa,#3c23ae);
+		}
+		.border-gradient-rasta {
+			border-image-source: linear-gradient(to right, #3dad39,#d1ce2a, #e72222);
+		}
+		.border-gradient-rasta-basic {
+			border-image-source: linear-gradient(to right, green,yellow, red);
+		}
+	</style>
 </head>
 <body>
 <div id="doc2" class="yui-t7">
-	<div id="inner">
+	<div id="inner-new" class="border-gradient border-gradient-edjaen">
 	
 		<div id="hd">
 			<div class="yui-gc">
 				<div class="yui-u first">
 					<h1>Edgar Reyes Jaén</h1>
-					<h2>System Engineer, SCADA Integrator and Developer</h2>
+					<h3>System Engineer, SCADA Integrator and Developer</h3>
 				</div>
 
 				<div class="yui-u">
@@ -26,8 +59,38 @@
 						<!--
                             <h3><a id="pdf" href="#">Download PDF</a></h3>
                         !-->
-						<h3><a href="mailto:edgar.reyes@strategyxgo.com">edgar.reyes@strategyxgo.com</a></h3>
-						<h3>322-7661649</h3>
+						<h3 style="display: inline-flex;" class="social">
+							<a href="mailto:edgar.reyes@strategyxgo.com">edgar.reyes@strategyxgo.com</a>
+						</h3>
+						<h3 style="display: inline-flex;">
+							<div class="social">
+								<a href="tel:+573227661649">3227661649
+								</a>
+							</div>
+						</h3>
+						<div style="display:flex;padding-top:1vh;">
+							<div class="social">
+								<a href="https://www.linkedin.com/in/edgarjaen">
+									<img src="images/linkedin.svg" alt="">
+								</a>
+							</div>
+							<div class="social">
+								<a href="https://api.whatsapp.com/send?phone=573227661649"" target="_blank"><img src="images/whatsapp.svg" alt=""></a>
+							</div>
+							<div class="social">
+								<a href="https://www.facebook.com/edjaen.ve" target="_blank"><img src="images/facebook.svg" alt=""></a>
+							</div>
+							<div class="social">
+								<a href="https://www.twitter.com/edjaen" target="_blank"><img src="images/twitter.svg" alt=""></a>
+							</div>
+							
+							<div class="social">
+								<a href="https://www.instagram.com/edjaen.ve" target="_blank"><img src="images/instagram.svg" alt=""></a>
+							</div>
+							<div class="social">
+								<a href="https://www.youtube.com/user/reyeseal" target="_blank"><img src="images/youtube.svg" alt=""></a>
+							</div>
+						</div>
 					</div><!--// .contact-info -->
 				</div>
 			</div><!--// .yui-gc -->
@@ -90,7 +153,7 @@
 
 							<ul class="talent">
 								<li>HMI Development</li>
-								<li>SCADA Development</li>
+								<li>SCADA Development, Integration</li>
 								<li class="last">PLC & RTU Programming</li>
 							</ul>
 
@@ -125,7 +188,7 @@
 
 							<div class="job">
 								<h2>Freelance.</h2>
-								<h3>SCADA Developer and Electric Technician.</h3>
+								<h3>SCADA Integrator and Electric Technician.</h3>
 								<h4>May 2019. - Current.</h4>
 								<p>
                                     Design of Automatic Control  based on Programmable Logic Controllers.
@@ -213,7 +276,8 @@
 		</div><!--// bd -->
 
 		<div id="ft">
-			<p>eng. Edgar Reyes Jaén &mdash; <a href="mailto:edgar.reyes@strategyxgo.com">edgar.reyes@strategyxgo.com</a> &mdash; 322-7661649</p>
+			<p>Eng. Edgar Reyes Jaén &mdash; <a href="mailto:edgar.reyes@strategyxgo.com">edgar.reyes@strategyxgo.com</a> &mdash; 322-7661649</p>
+			
 		</div><!--// footer -->
 
 	</div><!-- // inner -->

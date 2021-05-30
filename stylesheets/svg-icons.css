@@ -1,0 +1,22 @@
+
+:root {
+    --color-brand: #e7e078;
+    --color-brand-middle: #3ca3aa;
+    --color-brand-secondary: #3c23ae;
+
+    --color-light-shadow: #ffffff;
+    --color-dark-shadow:  #666666;
+    --movil: "50%";
+}
+
+.gradient-brand-secondary {
+    stop-color: var(--color-brand-secondary);
+}
+
+.gradient-brand-middle {
+    stop-color: var(--color-brand-middle);
+    offset:50%;
+}
+.gradient-brand {
+    stop-color: var(--color-brand);
+}

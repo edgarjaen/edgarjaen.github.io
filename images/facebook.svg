@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg2868"
+   version="1.1"
+   viewBox="0 0 13.427076 13.427076"
+   height="50.748005"
+   width="50.748005">
+  <defs
+     id="defs2862">
+       <style type="text/css">
+      :root {
+         --color-brand: #e7e078;
+         --color-brand-middle: #3ca3aa;
+         --color-brand-secondary: #3c23ae;
+
+         --color-light-shadow: #ffffff;
+         --color-dark-shadow:  #666666;
+         --movil: "50%";
+      }
+
+      .gradient-brand-secondary {
+         stop-color: var(--color-brand-secondary);
+      }
+
+      .gradient-brand-middle {
+         stop-color: var(--color-brand-middle);
+      }
+      .gradient-brand {
+         stop-color: var(--color-brand);
+      }
+      .gradient{
+         fill:url(#gradient);
+      }
+      .social-foreground{
+         fill:var(--color-light-shadow);
+         fill-opacity: 1;
+      }
+
+
+    </style>
+    <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">\
+        <stop class="gradient-brand-middle" offset="0%"/>
+        <stop class="gradient-brand-secondary" offset="100%"/>
+    </linearGradient>
+   </defs>
+  
+  <metadata
+     id="metadata2865">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-29.662228,11.428571)"
+     id="layer1">
+    <g
+       transform="matrix(0.03527778,0,0,-0.03527778,-166.44378,147.14329)"
+       id="facebookIcon">
+      <path
+         id="path2352"
+         class="gradient"
+         style="fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 5749.2201,4114.3401 v 0 c -105.11,0 -190.31,85.2 -190.31,190.3 v 0 c 0,105.11 85.2,190.31 190.31,190.31 v 0 c 105.1,0 190.3,-85.2 190.3,-190.31 v 0 c 0,-105.1 -85.2,-190.3 -190.3,-190.3" />
+      <path
+         id="path2354"
+         class="social-foreground"
+         style="fill-rule:nonzero;stroke:none"
+         d="m 5720.2201,4189.6101 h 46.32 v 116.01 h 32.33 l 3.44,38.84 h -35.77 c 0,0 0,14.5 0,22.12 0,9.16 1.85,12.78 10.7,12.78 7.12,0 25.07,0 25.07,0 v 40.31 c 0,0 -26.43,0 -32.08,0 -34.47,0 -50.01,-15.18 -50.01,-44.24 0,-25.31 0,-30.97 0,-30.97 h -24.1 v -39.33 h 24.1 v -115.52" />
+    </g>
+  </g>
+</svg>
